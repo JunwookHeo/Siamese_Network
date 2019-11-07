@@ -1,7 +1,7 @@
 # Siamese_Network
 
 
-![image](https://drive.google.com/open?id=1kGw921sjMXTZpVU6i8EyLgRIVYFXOpCh)
+![image](https://github.com/JunwookHeo/Siamese_Network/blob/master/Siamese%20CNN.jpg)
 
 
 The last layer(2x1) is to display the distribution in a 2D graph.
