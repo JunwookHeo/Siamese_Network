@@ -19,3 +19,8 @@ The objective of the Siamese network is to identify the similarity or difference
 
 
 where m > 0 is a margin. The Euclidean distance <a href="https://www.codecogs.com/eqnedit.php?latex=D(P_i,&space;P_j)&space;=&space;\sqrt(\sum&space;(P_i-P_j)^2)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D(P_i,&space;P_j)&space;=&space;\sqrt(\sum&space;(P_i-P_j)^2)" title="D(P_i, P_j) = \sqrt(\sum (P_i-P_j)^2)" /></a>
+
+## References
+
+http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf
+
