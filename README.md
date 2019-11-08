@@ -19,4 +19,4 @@ The objective of the Siamese network is to identify the similarity or difference
 L(P<sub>i</sub>, P<sub>j</sub>) =(1-y<sub>ij</sub>) 1/2D(P<sub>i</sub>, P<sub>j</sub>)<sup>2</sup> + y<sub>ij</sub>*1/2max(0, m-D(P<sub>i</sub>, P<sub>j</sub>))<sup>2</sup>
 
 
-where m > 0 is a margin. The Euclidean distance D(P<sub>i</sub>, P<sub>j</sub>) = (P<sub>i</sub>-P<sub>j</sub>)<sup>2</sup>
+where m > 0 is a margin. The Euclidean distance D(P<sub>i</sub>, P<sub>j</sub>) = sqrt(sum((P<sub>i</sub>-P<sub>j</sub>)<sup>2</sup>))
