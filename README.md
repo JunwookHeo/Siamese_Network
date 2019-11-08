@@ -18,6 +18,4 @@ The objective of the Siamese network is to identify the similarity or difference
 L(P<sub>i</sub>, P<sub>j</sub>) =(1-y<sub>ij</sub>) 1/2D(P<sub>i</sub>, P<sub>j</sub>)<sup>2</sup> + y<sub>ij</sub>*1/2max(0, m-D(P<sub>i</sub>, P<sub>j</sub>))<sup>2</sup>
 
 
-where m > 0 is a margin. The Euclidean distance D(P<sub>i</sub>, P<sub>j</sub>) = sqrt(<a href="https://www.codecogs.com/eqnedit.php?latex=\sum" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum" title="\sum" /></a> ((P<sub>i</sub>-P<sub>j</sub>)<sup>2</sup>))
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=\sqrt(\sum&space;(Pi-Pj)^2)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sqrt(\sum&space;(Pi-Pj)^2)" title="\sqrt(\sum (Pi-Pj)^2)" /></a>
+where m > 0 is a margin. The Euclidean distance <a href="https://www.codecogs.com/eqnedit.php?latex=D(P_i,&space;P_j)&space;=&space;\sqrt(\sum&space;(P_i-P_j)^2)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D(P_i,&space;P_j)&space;=&space;\sqrt(\sum&space;(P_i-P_j)^2)" title="D(P_i, P_j) = \sqrt(\sum (P_i-P_j)^2)" /></a>
