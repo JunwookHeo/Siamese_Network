@@ -12,8 +12,9 @@ So, it should be change to improve the performance.
 
 
 ## Contrastive Loss
-The objective of the Siamese network is to identify the similarity or difference of two input images. D(Pi, Pj) is the Euclidean distance between two image inputs – Pi and Pj. If two images are from the same equivalence classes, the pair is called a positive pair which Yij=0. If two images are from the different equivalence classes, the pair is called a negative pair which Yij=1. The target of the network is to optimise the contrastive loss function so that the loss values of the positive pairs and negative pairs should keep decreasing.
+The objective of the Siamese network is to identify the similarity or difference of two input images. D(Pi, Pj) is the Euclidean distance between two image inputs – P<sub>i</sub> and Pj. If two images are from the same equivalence classes, the pair is called a positive pair which Yij=0. If two images are from the different equivalence classes, the pair is called a negative pair which Yij=1. The target of the network is to optimise the contrastive loss function so that the loss values of the positive pairs and negative pairs should keep decreasing.
 
+<sub>subscript</sub> and <sup>superscript</sup>
 
 L(Pi, Pj) =(1-yij) 1/2D(Pi, Pj)2 + yij*1/2max(0, m-D(Pi, Pj))2
 
