@@ -18,7 +18,7 @@ The objective of the Siamese network is to identify the similarity or difference
 <a href="https://www.codecogs.com/eqnedit.php?latex=L(P_i,&space;P_j)&space;=(1-y_i_j)*1/2D(P_i,&space;P_j)^2&space;&plus;&space;y_i_j*1/2max(0,&space;m-D(P_i,&space;P_j))^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?L(P_i,&space;P_j)&space;=(1-y_i_j)*1/2D(P_i,&space;P_j)^2&space;&plus;&space;y_i_j*1/2max(0,&space;m-D(P_i,&space;P_j))^2" title="L(P_i, P_j) =(1-y_i_j)*1/2D(P_i, P_j)^2 + y_i_j*1/2max(0, m-D(P_i, P_j))^2" /></a>
 
 
-where m > 0 is a margin. The Euclidean distance <a href="https://www.codecogs.com/eqnedit.php?latex=D(P_i,&space;P_j)&space;=&space;\sqrt(\sum&space;(P_i-P_j)^2)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D(P_i,&space;P_j)&space;=&space;\sqrt(\sum&space;(P_i-P_j)^2)" title="D(P_i, P_j) = \sqrt{\sum (P_i-P_j)^2}" /></a>
+where m > 0 is a margin. The Euclidean distance <a href="https://www.codecogs.com/eqnedit.php?latex=D(P_i,&space;P_j)&space;=&space;\sqrt(\sum&space;(P_i-P_j)^2)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D(P_i,&space;P_j)&space;=&space;\sqrt{\sum&space;(P_i-P_j)^2}" title="D(P_i, P_j) = \sqrt{\sum (P_i-P_j)^2}" /></a>
 
 ## References
 
