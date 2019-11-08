@@ -12,11 +12,11 @@ So, it should be change to improve the performance.
 
 
 ## Contrastive Loss
-The objective of the Siamese network is to identify the similarity or difference of two input images. D(Pi, Pj) is the Euclidean distance between two image inputs – P<sub>i</sub> and Pj. If two images are from the same equivalence classes, the pair is called a positive pair which Yij=0. If two images are from the different equivalence classes, the pair is called a negative pair which Yij=1. The target of the network is to optimise the contrastive loss function so that the loss values of the positive pairs and negative pairs should keep decreasing.
+The objective of the Siamese network is to identify the similarity or difference of two input images. D(P<sub>i</sub>, P<sub>j</sub>) is the Euclidean distance between two image inputs – P<sub>i</sub> and P<sub>j</sub>. If two images are from the same equivalence classes, the pair is called a positive pair which Y<sub>ij</sub>=0. If two images are from the different equivalence classes, the pair is called a negative pair which Y<sub>ij</sub>=1. The target of the network is to optimise the contrastive loss function so that the loss values of the positive pairs and negative pairs should keep decreasing.
 
 <sub>subscript</sub> and <sup>superscript</sup>
 
-L(Pi, Pj) =(1-yij) 1/2D(Pi, Pj)2 + yij*1/2max(0, m-D(Pi, Pj))2
+L(P<sub>i</sub>, P<sub>j</sub>) =(1-y<sub>ij</sub>) 1/2D(P<sub>i</sub>, P<sub>j</sub>)<sup>2</sup> + y<sub>ij</sub>*1/2max(0, m-D(P<sub>i</sub>, P<sub>j</sub>))<sup>2</sup>
 
 
-where m > 0 is a margin. The Euclidean distance D(Pi, Pj) = (Pi-Pj)2
+where m > 0 is a margin. The Euclidean distance D(P<sub>i</sub>, P<sub>j</sub>) = (P<sub>i</sub>-P<sub>j</sub>)<sup>2</sup>
