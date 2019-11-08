@@ -19,3 +19,5 @@ L(P<sub>i</sub>, P<sub>j</sub>) =(1-y<sub>ij</sub>) 1/2D(P<sub>i</sub>, P<sub>j<
 
 
 where m > 0 is a margin. The Euclidean distance D(P<sub>i</sub>, P<sub>j</sub>) = sqrt(<a href="https://www.codecogs.com/eqnedit.php?latex=\sum" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum" title="\sum" /></a> ((P<sub>i</sub>-P<sub>j</sub>)<sup>2</sup>))
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\sqrt(\sum&space;(Pi-Pj)^2)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sqrt(\sum&space;(Pi-Pj)^2)" title="\sqrt(\sum (Pi-Pj)^2)" /></a>
